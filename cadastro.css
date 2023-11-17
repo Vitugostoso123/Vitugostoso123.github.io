@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+  
+
+
+
+  header {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+
+
+  .logo {
+    width: 200px;
+  }
+  
+
+
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+
+
+
+  .search-input {
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid #F0F0F0;
+    padding: 5px 10px;
+  }
+  
+
+
+
+  .search-icon {
+    margin-left: -30px;
+  }
+  
+
+
+
+  .welcome-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 14px;
+    margin-right: 40px;
+  }
+  
+
+
+
+  .welcome-text span:first-child {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+
+
+
+  .welcome-text span:last-child {
+    margin: 0;
+  }
+  
+
+
+
+  .welcome-text a {
+    color: #18537D;
+  }
+  
+
+
+
+  .login-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 45px;
+  }
+  
+
+
+
+  main {
+    padding: 20px 40px;
+    margin-top: 0;
+  }
+  
+
+
+
+  footer {
+    background-color: #F1F1F1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+
+
+  .rectangle {
+    height: 60px;
+    background-color: #FFD200;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+
+  .rectangle span {
+    margin: 0 15px; /* Adiciona espaçamento horizontal */
+    padding: 10px 0; /* Adiciona espaçamento vertical */
+    text-align: center; /* Alinha o texto ao centro horizontalmente */
+    flex: 1; /* Distribui o espaço igualmente entre os links */
+  }
+  
+
+
+
+  .rectangle>span>a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #18537D;
+    display: block; /* Faz com que os links ocupem todo o espaço disponível */
+  }
+  
+
+
+
+  .login-form {
+    margin: 0 auto; /* Centraliza o formulário na página */
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+  }
+  
+
+
+
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+
+
+
+  .login-button {
+    background-color: #18537D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+
+/* Estilos para os campos de entrada */
+.login-input {
+  width: 100%;
+  padding: 8px; /* Reduz o preenchimento interno */
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px; /* Reduz o tamanho da fonte */
+}
+
+
+
+
+/* Estilos para o botão de login */
+.login-button {
+  background-color: #18537D;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Reduz o tamanho da fonte */
+}
+
+
+
+
+.rectangle-left {
+  width: 500px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  border: 2px solid #9E9898;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  margin-right: 50px; /* Adicione margem à direita para distanciar do retângulo direito */
+  vertical-align: top; /* Alinhe o retângulo superiormente */
+  margin-left: 60px; /* Aumente a margem à esquerda para distanciá-lo do link "Voltar para a Página Inicial" */
+}
+
+
+
+
+/* Estilos para o retângulo à direita (rectangle-right) */
+.rectangle-right {
+  width: 500px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  border: 2px solid #9E9898;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  vertical-align: top; /* Alinhe o retângulo superiormente */
+}
+
+
+
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #F1F1F1;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px; /* Adicione margem superior para distanciar o rodapé do retângulo direito */
+}
+
+
+
+
+.small-input {
+  width: 40%; /* Defina a largura desejada para os campos pequenos */
+}
+
+
+
+
+/* Estilos para os campos de entrada (inputs) */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Arredonda os cantos dos campos */
+} 
+
+  
+  
+
+
+
+.back-button a {
+  background-color: F1F1F1;
+  color: #18537D;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px; /* Adicione margem acima do link */
+  margin-right: 10px; /* Adicione margem à direita do link */
+  margin-left: 40px; /* Aumente a margem à esquerda do link para distanciá-lo do retângulo esquerdo */
+}
